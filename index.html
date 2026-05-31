@@ -1,278 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZERO Finance</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZERO Finance</title>
 
-    <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <div class="container nav">
+<header>
+    <div class="container nav">
 
-            <div class="logo">
-                ZERO Finance
-            </div>
+        <div class="logo">
+            ZERO Finance
+        </div>
 
-            <ul>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#ecosystem">Ecosystem</a></li>
-                <li><a href="#roadmap">Roadmap</a></li>
-            </ul>
+        <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#tokenomics">Tokenomics</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
 
-            <button class="wallet-btn">
-                Launch App
+        <button id="connectWallet" class="wallet-btn">
+            Connect Wallet
+        </button>
+
+    </div>
+</header>
+
+<section class="hero">
+
+    <div class="container">
+
+        <span class="badge">
+            DeFi & Open Finance
+        </span>
+
+        <h1>
+            Permissionless Financial Infrastructure For The Next Generation Of Open Finance
+        </h1>
+
+        <p>
+            ZERO Finance powers decentralized trading, liquidity management,
+            yield generation and advanced financial primitives through
+            trustless smart contract infrastructure.
+        </p>
+
+        <div class="hero-buttons">
+            <button class="primary">Launch App</button>
+            <button class="secondary">Documentation</button>
+        </div>
+
+        <div class="wallet-card">
+            <h3>Connect Your Wallet</h3>
+            <p>
+                Access ZERO Swap, ZERO Locker and PerpDex.
+            </p>
+
+            <button id="heroConnectWallet" class="primary">
+                Connect MetaMask
             </button>
-
         </div>
-    </header>
 
-    <section class="hero">
-
-        <div class="container hero-content">
-
-            <span class="badge">
-                DeFi & Open Finance
-            </span>
-
-            <h1>
-                The Future of Permissionless Finance
-            </h1>
-
-            <p>
-                Build, trade, stake and earn through decentralized financial
-                infrastructure powered entirely by smart contracts.
-                ZERO Finance enables open-access money systems without
-                traditional intermediaries.
-            </p>
-
-            <div class="hero-buttons">
-
-                <button class="primary">
-                    Explore Ecosystem
-                </button>
-
-                <button class="secondary">
-                    Documentation
-                </button>
-
+        <div class="stats">
+            <div>
+                <h2 id="tvl">$0</h2>
+                <p>Total Value Locked</p>
             </div>
 
-            <div class="hero-stats">
+            <div>
+                <h2>500K+</h2>
+                <p>Users</p>
+            </div>
 
-                <div>
-                    <h2>$1.5B+</h2>
-                    <p>TVL Secured</p>
-                </div>
+            <div>
+                <h2>150+</h2>
+                <p>Protocols</p>
+            </div>
+        </div>
 
-                <div>
-                    <h2>500K+</h2>
-                    <p>Users</p>
-                </div>
+    </div>
 
-                <div>
-                    <h2>150+</h2>
-                    <p>Protocols</p>
-                </div>
+</section>
 
+<section id="products">
+    <div class="container">
+
+        <h2>Core Products</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>ZERO Swap</h3>
+                <p>
+                    Decentralized exchange with efficient liquidity routing.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>ZERO Locker</h3>
+                <p>
+                    Token vesting, treasury protection and liquidity locks.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>PerpDex</h3>
+                <p>
+                    Decentralized perpetual futures with leverage trading.
+                </p>
             </div>
 
         </div>
 
-    </section>
+    </div>
+</section>
 
-    <section id="products" class="products">
+<section>
+    <div class="container">
 
-        <div class="container">
+        <h2>Financial Infrastructure</h2>
 
-            <h2>Core Products</h2>
+        <div class="cards">
 
-            <div class="cards">
+            <div class="card">
+                <h3>Yield Products</h3>
+                <p>Stake and earn through automated yield strategies.</p>
+            </div>
 
-                <div class="card">
-                    <h3>ZERO Swap</h3>
-                    <p>
-                        High-performance decentralized exchange with
-                        deep liquidity and minimal slippage.
-                    </p>
-                </div>
+            <div class="card">
+                <h3>Liquidity Tools</h3>
+                <p>Advanced liquidity management for LPs.</p>
+            </div>
 
-                <div class="card">
-                    <h3>ZERO Locker</h3>
-                    <p>
-                        Secure token vesting, liquidity locking and
-                        treasury protection solutions.
-                    </p>
-                </div>
+            <div class="card">
+                <h3>Novel AMM Designs</h3>
+                <p>Capital efficient next-generation AMMs.</p>
+            </div>
 
-                <div class="card">
-                    <h3>PerpDex</h3>
-                    <p>
-                        Decentralized perpetual futures trading
-                        with advanced leverage markets.
-                    </p>
-                </div>
-
+            <div class="card">
+                <h3>Financial Primitives</h3>
+                <p>Composable building blocks for DeFi innovation.</p>
             </div>
 
         </div>
 
-    </section>
+    </div>
+</section>
 
-    <section id="features" class="features">
+<section id="tokenomics">
+    <div class="container">
 
-        <div class="container">
+        <h2>ZERO Tokenomics</h2>
 
-            <h2>Financial Infrastructure</h2>
+        <div class="cards">
 
-            <div class="cards">
+            <div class="card">
+                <h3>40%</h3>
+                <p>Community Rewards</p>
+            </div>
 
-                <div class="card">
-                    <h3>Yield Products</h3>
-                    <p>
-                        Earn passive income through staking,
-                        farming and automated vault strategies.
-                    </p>
-                </div>
+            <div class="card">
+                <h3>20%</h3>
+                <p>Ecosystem Growth</p>
+            </div>
 
-                <div class="card">
-                    <h3>Liquidity Tools</h3>
-                    <p>
-                        Capital-efficient liquidity management
-                        for traders and LPs.
-                    </p>
-                </div>
+            <div class="card">
+                <h3>15%</h3>
+                <p>Treasury</p>
+            </div>
 
-                <div class="card">
-                    <h3>Novel AMM Designs</h3>
-                    <p>
-                        Innovative market-making models that maximize
-                        liquidity efficiency.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <h3>Financial Primitives</h3>
-                    <p>
-                        Composable smart contract building blocks
-                        powering next-generation DeFi.
-                    </p>
-                </div>
-
+            <div class="card">
+                <h3>25%</h3>
+                <p>Team & Advisors</p>
             </div>
 
         </div>
 
-    </section>
+    </div>
+</section>
 
-    <section id="ecosystem" class="ecosystem">
+<section id="roadmap">
+    <div class="container">
 
-        <div class="container">
+        <h2>2026 Roadmap</h2>
 
-            <h2>Why ZERO Finance?</h2>
+        <div class="timeline">
 
-            <div class="ecosystem-grid">
+            <div class="timeline-item">
+                <h3>Q1 2026</h3>
+                <ul>
+                    <li>Mainnet Launch</li>
+                    <li>ZERO Swap v1</li>
+                    <li>Genesis Liquidity Program</li>
+                    <li>Initial Governance Framework</li>
+                </ul>
+            </div>
 
-                <div class="eco-box">
-                    <span>🔒</span>
-                    <h3>Trustless Security</h3>
-                    <p>
-                        Fully on-chain execution with transparent smart contracts.
-                    </p>
-                </div>
+            <div class="timeline-item">
+                <h3>Q2 2026</h3>
+                <ul>
+                    <li>ZERO Locker</li>
+                    <li>Liquidity Mining</li>
+                    <li>Cross Chain Bridge</li>
+                    <li>DAO Governance</li>
+                </ul>
+            </div>
 
-                <div class="eco-box">
-                    <span>⚡</span>
-                    <h3>Fast Execution</h3>
-                    <p>
-                        Optimized infrastructure delivering instant settlement.
-                    </p>
-                </div>
+            <div class="timeline-item">
+                <h3>Q3 2026</h3>
+                <ul>
+                    <li>PerpDex Beta</li>
+                    <li>Leverage Trading</li>
+                    <li>Institutional APIs</li>
+                    <li>Yield Aggregator</li>
+                </ul>
+            </div>
 
-                <div class="eco-box">
-                    <span>🌎</span>
-                    <h3>Global Access</h3>
-                    <p>
-                        Open financial services available worldwide.
-                    </p>
-                </div>
-
-                <div class="eco-box">
-                    <span>📈</span>
-                    <h3>Capital Efficiency</h3>
-                    <p>
-                        Better utilization of liquidity and collateral.
-                    </p>
-                </div>
-
+            <div class="timeline-item">
+                <h3>Q4 2026</h3>
+                <ul>
+                    <li>Lending Market</li>
+                    <li>RWA Integration</li>
+                    <li>Global Expansion</li>
+                    <li>Multi-chain Ecosystem</li>
+                </ul>
             </div>
 
         </div>
 
-    </section>
+    </div>
+</section>
 
-    <section id="roadmap" class="roadmap">
+<section id="faq">
+    <div class="container">
 
-        <div class="container">
+        <h2>FAQ</h2>
 
-            <h2>Roadmap</h2>
-
-            <div class="timeline">
-
-                <div class="timeline-item">
-                    <h3>Q1</h3>
-                    <p>Launch ZERO Swap.</p>
-                </div>
-
-                <div class="timeline-item">
-                    <h3>Q2</h3>
-                    <p>Release ZERO Locker.</p>
-                </div>
-
-                <div class="timeline-item">
-                    <h3>Q3</h3>
-                    <p>Deploy PerpDex.</p>
-                </div>
-
-                <div class="timeline-item">
-                    <h3>Q4</h3>
-                    <p>Expand institutional DeFi solutions.</p>
-                </div>
-
-            </div>
-
+        <div class="faq-item">
+            <h3>What is ZERO Finance?</h3>
+            <p>A permissionless financial ecosystem.</p>
         </div>
 
-    </section>
-
-    <footer>
-
-        <div class="container">
-
-            <h3>ZERO Finance</h3>
-
-            <p>
-                Building the next generation of decentralized financial systems.
-            </p>
-
-            <small>
-                © 2026 ZERO Finance. All Rights Reserved.
-            </small>
-
+        <div class="faq-item">
+            <h3>How do I connect my wallet?</h3>
+            <p>Click Connect Wallet and approve MetaMask.</p>
         </div>
 
-    </footer>
+        <div class="faq-item">
+            <h3>Is ZERO audited?</h3>
+            <p>Yes, all core contracts undergo security audits.</p>
+        </div>
 
-    <script src="script.js"></script>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <h3>ZERO Finance</h3>
+        <p>Building Open Finance Infrastructure For Everyone.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
-
 </html>
